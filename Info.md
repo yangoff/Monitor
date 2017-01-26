@@ -1,5 +1,5 @@
 # Monitor
-monitor-Sys 4 maanaging of item stock
+monitor-Sys 4 managing of item stock
 
 - Java FX
 - Stock
