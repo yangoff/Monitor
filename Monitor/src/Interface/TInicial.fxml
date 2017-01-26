@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="313.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="inicial.TInicialController">
+    <stylesheets>
+        <URL value="@tinicial.css" />
+    </stylesheets>
+   <children>
+      <Pane prefHeight="49.0" prefWidth="313.0" style="-fx-background-color: #CE0000;">
+         <children>
+            <Label layoutX="96.0" layoutY="-6.0" prefHeight="61.0" prefWidth="160.0" text="Monitor" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="205.0" fitWidth="307.0" focusTraversable="true" layoutX="3.0" layoutY="246.0" opacity="0.75" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@../../../../../Desktop/ga.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="36.0" layoutY="104.0" text="Login">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="177.0" text="Senha">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="36.0" layoutY="211.0" prefHeight="25.0" prefWidth="235.0" />
+      <TextField layoutX="36.0" layoutY="145.0" prefHeight="25.0" prefWidth="235.0" />
+      <Button layoutX="123.0" layoutY="287.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="67.0" style="-fx-background-color: green;" text="Entrar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="104.0" layoutY="399.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: Blue;" text="Cadastrar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
